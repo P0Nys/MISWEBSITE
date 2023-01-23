@@ -1,0 +1,16 @@
+.glow-maroon-saber {
+    box-shadow: 0 0 10px maroon;
+}
+  @keyframes glow {
+      from {
+        box-shadow: 0 0 10px maroon;
+    }
+      to {
+        box-shadow: 0 0 20px #ff0000;
+    }
+    }
+  .glow-maroon-saber {
+    animation: glow 1s linear infinite;
+   }
+
+  
